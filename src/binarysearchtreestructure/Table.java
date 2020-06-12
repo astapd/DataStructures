@@ -134,8 +134,6 @@ public class Table {
 		//		traversing through only the left nodes of the node you wish to delete; because we are looking to find the next largest node to the deleting node
 		if(parent.getLeft()!=null){
 			if ((parent.getKey().compareToIgnoreCase(parent.getLeft().getKey()))>0) {
-//				parent.setLeft(findLargestNode(parent.getLeft()));
-//				corrected on 4/17/2020:
 				parent = findLargestNode(parent.getLeft());
 			}
 		}
