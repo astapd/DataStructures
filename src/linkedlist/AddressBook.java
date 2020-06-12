@@ -29,8 +29,7 @@ public class AddressBook{
 
 		// 		Prompting to enter the file path and then opening and displaying the contents of the file (i.e. if the user first chose to open it)
 		if(open.equalsIgnoreCase("y")) {
-			System.out.println("Please enter the path of the file you wish to open\n(You can either create your own text file or use the one I created named 'AssignmentTwoFile')");
-			System.out.println(" For example. My file path was : C:\\INFS 519 workspace\\INFS_519_Assignments\\src\\assignment\\two\\AssignmentTwoFile.txt\n");
+			System.out.println("Please enter the path of the file you wish to open");
 			filePath = sc.nextLine();				
 			System.out.println("Displaying the contents of the file (if there is any):\n");
 			file = new FileReader(filePath);
