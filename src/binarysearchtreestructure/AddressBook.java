@@ -69,8 +69,6 @@ public class AddressBook {
 					String option = sc.nextLine();
 					//				In case the user chose to input the items in the file as entries
 					if(option.equalsIgnoreCase("y")) {
-						//					System.out.println("Please enter the path of the file whose data you want to enter as name and address entries");
-						//					filePath = sc.nextLine();
 						file = new FileReader(filePath);
 						bf = new BufferedReader(file);
 						String st2;
